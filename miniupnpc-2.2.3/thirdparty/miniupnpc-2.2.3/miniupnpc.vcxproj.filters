@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\addr_is_reserved.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\connecthostport.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\igd_desc_parse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minisoap.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minissdpc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniupnpc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniwget.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minixml.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\portlistingparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\receivedata.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\upnpcommands.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\upnpdev.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\upnperrors.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\upnpreplyparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\rc_version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\addr_is_reserved.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\connecthostport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\igd_desc_parse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minisoap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minissdpc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniupnpc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniupnpctypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniupnpc_declspec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniwget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minixml.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\portlistingparse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upnpcommands.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upnpdev.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upnperrors.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\upnpreplyparse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win32_snprintf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miniupnpcstrings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\miniwget_private.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\receivedata.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

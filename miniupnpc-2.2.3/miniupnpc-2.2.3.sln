@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{F32901A6-3531-4E14-BEE3-1B7C9398F419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{DF5A4B1A-C2E0-4677-BCB1-0BDDB1258FCE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libminiupnpc", "thirdparty\miniupnpc-2.2.3\libminiupnpc.vcxproj", "{D28CE435-CB33-4BAE-8A52-C6EF915956F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "miniupnpc", "thirdparty\miniupnpc-2.2.3\miniupnpc.vcxproj", "{B506B9D0-57D9-4E12-B0F6-F1949C9536C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upnpc-static", "demo\upnpc-static\upnpc-static.vcxproj", "{469E1CF6-08A2-4B7B-A2AA-5BDB089857C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B506B9D0-57D9-4E12-B0F6-F1949C9536C8} = {B506B9D0-57D9-4E12-B0F6-F1949C9536C8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wingenminiupnpcstrings", "demo\wingenminiupnpcstrings\wingenminiupnpcstrings.vcxproj", "{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Debug|x64.ActiveCfg = Debug|x64
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Debug|x64.Build.0 = Debug|x64
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Release|x64.ActiveCfg = Release|x64
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Release|x64.Build.0 = Release|x64
+		{B506B9D0-57D9-4E12-B0F6-F1949C9536C8}.Debug|x64.ActiveCfg = Debug|x64
+		{B506B9D0-57D9-4E12-B0F6-F1949C9536C8}.Debug|x64.Build.0 = Debug|x64
+		{B506B9D0-57D9-4E12-B0F6-F1949C9536C8}.Release|x64.ActiveCfg = Release|x64
+		{B506B9D0-57D9-4E12-B0F6-F1949C9536C8}.Release|x64.Build.0 = Release|x64
+		{469E1CF6-08A2-4B7B-A2AA-5BDB089857C1}.Debug|x64.ActiveCfg = Debug|x64
+		{469E1CF6-08A2-4B7B-A2AA-5BDB089857C1}.Debug|x64.Build.0 = Debug|x64
+		{469E1CF6-08A2-4B7B-A2AA-5BDB089857C1}.Release|x64.ActiveCfg = Release|x64
+		{469E1CF6-08A2-4B7B-A2AA-5BDB089857C1}.Release|x64.Build.0 = Release|x64
+		{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}.Debug|x64.ActiveCfg = Debug|x64
+		{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}.Debug|x64.Build.0 = Debug|x64
+		{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}.Release|x64.ActiveCfg = Release|x64
+		{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5} = {F32901A6-3531-4E14-BEE3-1B7C9398F419}
+		{B506B9D0-57D9-4E12-B0F6-F1949C9536C8} = {F32901A6-3531-4E14-BEE3-1B7C9398F419}
+		{469E1CF6-08A2-4B7B-A2AA-5BDB089857C1} = {DF5A4B1A-C2E0-4677-BCB1-0BDDB1258FCE}
+		{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C} = {DF5A4B1A-C2E0-4677-BCB1-0BDDB1258FCE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
+	EndGlobalSection
+EndGlobal
